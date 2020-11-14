@@ -37,7 +37,7 @@ steps:
 - script: sudo chmod 777 /home/vsts/work/1/s/vendor/phpunit/phpunit/phpunit
   displayName: 'Permiso para phpunit'
 
-- script: sudo chmod 777 /home/vsts/work/1/s/vendor/phpmd
+- script: sudo chmod 777 /home/vsts/work/1/s/vendor/phpmd/phpmd/src/bin/phpmd
   displayName: 'Permiso para Mess Detector'
 
 - script: chmod +x vendor/bin/phpunit
