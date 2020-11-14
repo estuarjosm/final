@@ -13,7 +13,7 @@ class InsertarUsuarioTest extends TestCase{
 	final public function getConnection() {
 		if ($this->conn===null) {
 			if (self::$pdo == null){
-				self::$pdo = new PDO("mysql:dbname=examenfinal;host=localhost:33065", "root", "");
+				self::$pdo = new PDO("mysql:dbname=examenfinal;host=examenexamen.mysql.database.azure.com", "estuar@examenexamen", "EJ140505%");
 			}
 			$this->conn = $this->createDefaultDBConnection(self::$pdo, "examenfinal");
 		}

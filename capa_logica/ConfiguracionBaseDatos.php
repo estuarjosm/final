@@ -1,6 +1,6 @@
 <?php 
 
-define ('HOST', 'localhost:33065');
-define ('USER', 'root');
-define ('PASSWORD', '');
+define ('HOST', 'examenexamen.mysql.database.azure.com');
+define ('USER', 'estuar@examenexamen');
+define ('PASSWORD', 'EJ140505%');
 define ('DATABASE', 'examenfinal');
