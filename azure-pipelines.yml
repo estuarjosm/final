@@ -37,8 +37,15 @@ steps:
 - script: sudo chmod 777 /home/vsts/work/1/s/vendor/phpunit/phpunit/phpunit
   displayName: 'Permiso para phpunit'
 
+- script: sudo chmod 777 /home/vsts/work/1/s/vendor/phpmd/phpmd/phpmd
+  displayName: 'Permiso para Mess Detector'
+
 - script: chmod +x vendor/bin/phpunit
   displayName: 'Identificar phpunit como ejecutable'
+
+- script: chmod +x vendor/bin/phpmd
+  displayName: 'Identificar phpmd como ejecutable'
+
 
 - script: ./vendor/bin/phpmd capa_negocios ansi cleancode
   displayName: 'Pruebas de Codigo'
