@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<dataset>
+	<usuarios id_usuario="1" nombre_usuario="Mario" correo_usuario="mario@gmail.com" pass_usuario="12345" rol_usuario="1" estado_usuario="1" />
+	<usuarios id_usuario="2" nombre_usuario="Juan" correo_usuario="juan@gmail.com" pass_usuario="78945" rol_usuario="1" estado_usuario="1"/>
+</dataset>

@@ -1,0 +1,15 @@
+body{
+	background-color: #E9EAEC;
+}
+div.log{
+	padding: 0px;
+}
+
+div.titulo{
+	padding: 1rem;
+	margin: 0px 0px 0px;	
+}
+.titulo2{
+	padding: 0px;
+	margin: 0px 0px 0px 0px;	
+}

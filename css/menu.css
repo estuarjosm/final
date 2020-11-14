@@ -1,0 +1,21 @@
+body{
+	background-color: #E9EAEC;
+}
+
+header{
+	background-color: #007bff;
+	color: #fff;
+}
+.card{
+	margin: 0.5em;
+}
+a{
+	font-size: 1em;
+}
+h5{
+	padding-bottom: 0.75em;
+}
+footer{
+	background-color: #007bff;
+	color: #fff;
+}
