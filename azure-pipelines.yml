@@ -61,4 +61,4 @@ steps:
 - script: ./vendor/bin/phpunit testUnitarios --color
   displayName: 'Pruebas unitarias de las Clases'
 
-- tarea: PublishBuildArtifacts @ 1
+- task: PublishBuildArtifacts@1
